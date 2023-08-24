@@ -14,6 +14,7 @@ library(MASS)
 library(survey)
 library(ggplot2)
 library(cowplot)
+library(ggsci)
 
 ######
 ## Set n
