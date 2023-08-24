@@ -1337,14 +1337,6 @@ for (i in c(1,7,9)){
   #write.csv(final_allocation_truth_df_frac_strat4, 
   #          "final_all_truth_strat420230818.csv", row.names = FALSE)
   
-  
-  final_allocation_df_frac_strat1 <- read.csv(
-    "/Users/jasper/Downloads/Scenario7final_all_strat120230818.csv",
-    check.names = FALSE)
-  final_allocation_df_frac_strat4 <- read.csv(
-    "/Users/jasper/Downloads/Scenario7final_all_strat420230818.csv",
-    check.names = FALSE)
-  
   #######
   ### Find mean, sd for standardized allocations, i.e. allocation - 1004/10000
   ### because 1004/10000 is sampling fraction under proportional allocation.
